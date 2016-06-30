@@ -81,6 +81,20 @@ if(e.keyCode==37 && (piggieLocation - 1 <= 360) && (piggieLocation - 1 >= 0) && 
   document.getElementById('block-'+piggieLocation).innerHTML='<div id="piggie" style="width:10px;height:10px;corner-radius:15px;background-color:yellow;margin:0 auto;"></div>';
 }
 
+var msg = [];
+function renderIt () {
+  function shuffleMsg(msg) {
+    for (var i = msg.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = msg[i];
+        msg[i] = msg[j];
+        msg[j] = temp;
+    }
+    return msg;
+    //Now I have to write a .innerHTML line but can't figure it out - document.getElementById('display').innerHTML = WHAT
+}
+
+}
 
 
 });
