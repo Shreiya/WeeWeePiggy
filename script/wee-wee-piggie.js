@@ -67,7 +67,7 @@ if(piggieLocation==incentiveBacon){
 } if(piggieLocation+1==incentiveKanye || piggieLocation-1==incentiveKanye || piggieLocation+19==incentiveKanye || piggieLocation-19==incentiveKanye)
 {
 var d = document.getElementById("block-"+incentiveKanye);
-d.className = "block Kanye";
+d.className = "block kanye";
 }
 if(piggieLocation==incentiveKanye){
  document.getElementById('display').innerHTML = " Oh hey Kanye! *When you find bae just sitting behind a rock, duin nuthin.*";
