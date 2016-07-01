@@ -70,21 +70,21 @@ var d = document.getElementById("block-"+incentiveKanye);
 d.className = "block kanye";
 }
 if(piggieLocation==incentiveKanye){
- document.getElementById('display').innerHTML = "When you find bae just sitting behind a rock, duin nuthin.";
+ document.getElementById('display').innerHTML = " Oh hey Kanye! *When you find bae just sitting behind a rock, duin nuthin.*";
 } if(piggieLocation+1==incentiveWig || piggieLocation-1==incentiveWig || piggieLocation+19==incentiveWig || piggieLocation-19==incentiveWig)
 {
 var d = document.getElementById("block-"+incentiveWig);
 d.className = "block wig";
 }
 if(piggieLocation==incentiveWig){
- document.getElementById('display').innerHTML = "Groove, piggy. Groove.";
+ document.getElementById('display').innerHTML = "You wear that wig and groove, piggy. Groove.";
 } if(piggieLocation+1==incentiveMagic || piggieLocation-1==incentiveMagic || piggieLocation+19==incentiveMagic || piggieLocation-19==incentiveMagic)
 {
 var d = document.getElementById("block-"+incentiveMagic);
 d.className = "block magic";
 }
 if(piggieLocation==incentiveMagic){
- document.getElementById('display').innerHTML = "Ohh yeaahh! Piggy doin goooood.";
+ document.getElementById('display').innerHTML = "Are those magic truffles? Ohh yeaahh! Piggy doin goooood.";
 } if(piggieLocation+1==incentiveClown || piggieLocation-1==incentiveClown || piggieLocation+19==incentiveClown || piggieLocation-19==incentiveClown)
 {
 var d = document.getElementById("block-"+incentiveClown);
@@ -98,7 +98,7 @@ var d = document.getElementById("block-"+incentiveOink);
 d.className = "block oink";
 }
 if(piggieLocation==incentiveOink){
- document.getElementById('display').innerHTML = "NICE! Piggy likes his pork-belly rubs.";
+ document.getElementById('display').innerHTML = "OOOO Oinkment! Piggy likes his pork-belly rubs.";
 }
 
 };
