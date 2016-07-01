@@ -178,7 +178,7 @@ if(e.keyCode==37 && (piggieLocation - 1 <= 360) && (piggieLocation - 1 >= 0) && 
   document.getElementById('block-'+piggieLocation).innerHTML='<div id="piggie" class="piggie"></div>';
 }
 if (piggieLocation == 37)
-div.innerHTML = "<div class='win'><img src='images/pig.png' /><br>PIGGY'S HOME!</div>";
+div.innerHTML = "<div class='win'><img src='images/newPig.png' /><br>PIGGY'S HOME!</div>";
 
 checkForIncentives();
 

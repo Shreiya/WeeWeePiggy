@@ -8,18 +8,21 @@
       top: 0;
       right: 0;
       padding: 25px;
-      font-size: 30px;
-      /*font-family: 'Amatica SC', cursive;*/
+      font-size: 85px;
+      font-family: 'Amatica SC', cursive;
+      font-weight: 30px;
+      color: grey;
       /*border:10px solid #bd314a;*/
 }
 .win {
   font-family: 'Amatica SC', cursive;
-  font-size: 30px;
+  font-size: 90px;
+  font-weight: 40px;
   width: 592px;
   position: absolute;
   top: 50%;
   text-align: center;
-  color: white;
+  color: grey;
 }
 .win img {
   height: 100px;
