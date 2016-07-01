@@ -13,8 +13,8 @@ CSS
 JS
 
 ###WIRE-FRAMING
-![Imgur](http://i.imgur.com/G5v7Pmc.jpg)
-![Imgur](http://i.imgur.com/rgYoR9i.jpg)
+![Imgur](http://i.imgur.com/G5v7Pmc.jpg?1)
+![Imgur](http://i.imgur.com/rgYoR9i.jpg?1)
 ![Imgur](http://i.imgur.com/FEC8FjL.jpg)
 
 ###UNSOLVED PROBLEMS
