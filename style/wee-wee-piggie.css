@@ -88,8 +88,8 @@
 }
 
 .container {
-  min-width: 590px;
-  min-height: 664px;
+  max-width: 590px;
+  max-height: 664px;
   padding-left: 15px;
   padding-bottom: 10px;
   position: absolute;
