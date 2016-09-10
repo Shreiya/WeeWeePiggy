@@ -8,9 +8,12 @@
       top: 0;
       right: 0;
       padding: 25px;
-      font-size: 30px;
-      font-family: 'Permanent Marker', cursive;
+      font-size: 60px;
+      font-family: 'Press Start 2P';
       /*border:10px solid #bd314a;*/
+      height: 88vh;
+      letter-spacing: 2px;
+      color: #00B01D;
 }
 .win {
   font-family: 'Permanent Marker', cursive;
@@ -24,6 +27,7 @@
 .win img {
   height: 100px;
   width: 100px;
+  border-radius: 10px;
 }
 #aside {
   top:302px;
@@ -84,7 +88,6 @@
 }
 
 .container {
-  background-color: white;
   width: 590px;
   min-height: 664px;
   padding-left: 15px;
@@ -92,6 +95,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  /*margin-left: 407px;*/
 }
 
 .bacon {

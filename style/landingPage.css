@@ -1,0 +1,23 @@
+.cryingPiggy{
+  background: url("http://i.giphy.com/2ZtaMI7L5JWSY.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 110vh;
+  text-align: center;
+  background-color: #B8E9FF;
+}
+
+a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+  font-size: 50px;
+  color: purple;
+  padding-top: 70px;
+}
+
+#instructions{
+  color: #00B01D;
+}

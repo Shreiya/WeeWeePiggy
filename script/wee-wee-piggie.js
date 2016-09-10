@@ -1,8 +1,4 @@
-// var a = prompt("Are you over the age of 18?");
-// if ( a === "yes") {
-//   alert("Cool! Come on in!");
-// } else {alert("K. Bai.");
-// }  //sorry
+
 
 var maze = [
 0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -178,7 +174,7 @@ if(e.keyCode==37 && (piggieLocation - 1 <= 360) && (piggieLocation - 1 >= 0) && 
   document.getElementById('block-'+piggieLocation).innerHTML='<div id="piggie" class="piggie"></div>';
 }
 if (piggieLocation == 37)
-div.innerHTML = "<div class='win'><img src='images/pig.png' /><br>PIGGY'S HOME!</div>";
+div.innerHTML = "<div class='win'><img src='http://i.giphy.com/6hFPE2KgnLrJS.gif' /><br></div>";
 
 checkForIncentives();
 
