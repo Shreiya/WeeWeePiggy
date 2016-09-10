@@ -1,0 +1,21 @@
+div#memoryBoard {
+  background: #CCC;
+  border: #999 2px solid;
+  width: 800px;
+  height: 540px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+div#memoryBoard > div {
+  background: url(http://i.imgur.com/0Hgw0q3.png);
+  border: #000 2px solid;
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+}
